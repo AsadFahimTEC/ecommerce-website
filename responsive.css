@@ -18,4 +18,25 @@
         width: 100%;
         margin-bottom: 10px;
     }   
+/* nav finish */
+
+    .banner-container{
+        flex-direction: column;
+    }
+
+
+    .banner-info, .banner-image{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+
+   .social-icons .fa-brands{
+        font-size: 30px;
+
+    }
+
 }
