@@ -4,9 +4,61 @@
 
 body {
   font-family: "Lato", sans-serif;
-  font-family: "Open Sans", sans-serif;
 }
+
 /* nav styles */
 nav {
-  background-color: #9376e0;
+    background-color: #9376e0;
 }
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img{
+    object-fit: cover;
+    margin-right: 20px;
+    width: 50px;
+}
+
+.logo-container p{
+    font-size: 30px;
+
+}
+
+.title{
+    color: #e893cf;
+}
+
+.nav-list-items{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list-items a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list-items .login-button{
+    border-radius: 5px;
+    background-color: #e893cf;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+
