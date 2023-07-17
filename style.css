@@ -63,6 +63,70 @@ nav {
 
 /* nav style finish */
 
+/* banner style start */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 0;
+    padding: 10px 15px;
+    max-width: 1400px;
+    min-height: 50px;
+    background-color: #e6e9eb;
+    border-radius: 5px;
+}
+
+.banner-image{
+    width: 50%;
+}
+
+.banner-image img{
+    width: 100%;
+}
+
+.banner-info{
+    width: 50%;
+    text-align: center;
+}
+
+.banner-info h1{
+    font-size: 50px;
+    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-info p{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.social-icons{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto 40px;
+}
+
+
+.fa-brands{
+    font-size: 60px;
+}
+
+.btn-primary{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #9376e0;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
 
 
 

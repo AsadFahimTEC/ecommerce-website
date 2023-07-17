@@ -1,6 +1,6 @@
 /* for mobile devices */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 400px) {
     .nav-container{
         flex-direction: column;
     }
