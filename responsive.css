@@ -1,0 +1,21 @@
+/* for mobile devices */
+
+@media screen and (max-width: 960px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-list-items{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-list-items a{
+        margin-top: 20px;
+    }
+
+    .nav-list-items .login-button{
+        width: 100%;
+        margin-bottom: 10px;
+    }   
+}

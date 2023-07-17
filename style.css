@@ -15,7 +15,7 @@ nav {
     display: flex;
     align-items: center;
     min-height: 50px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ nav {
 
 .logo-container p{
     font-size: 30px;
-
+    color: white;
 }
 
 .title{
@@ -60,5 +60,9 @@ nav {
     font-weight: 700;
     text-align: center;
 }
+
+/* nav style finish */
+
+
 
 
